@@ -1,0 +1,10 @@
+type Query{
+    findAllUsers : [Users]
+}
+
+type Users {
+    id: Float,
+    name: String,
+    age: Int,
+    email: String
+}
